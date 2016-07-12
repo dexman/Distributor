@@ -7,10 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		862A76601D30652900C38628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A765F1D30652900C38628 /* AppDelegate.swift */; };
-		862A76621D30652900C38628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862A76611D30652900C38628 /* Assets.xcassets */; };
-		862A76651D30652900C38628 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862A76631D30652900C38628 /* MainMenu.xib */; };
+		8605E2C81D348A1500FEE80F /* ITMSPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8605E2C71D348A1500FEE80F /* ITMSPackageTests.swift */; };
+		8605E2CA1D34921E00FEE80F /* TestFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8605E2C91D34921E00FEE80F /* TestFileManager.swift */; };
 		862A76701D30652900C38628 /* DistributorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A766F1D30652900C38628 /* DistributorTests.swift */; };
+		862A76821D30658400C38628 /* DistributorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 862A76811D30658400C38628 /* DistributorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		862A76891D30658500C38628 /* DistributorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862A767F1D30658400C38628 /* DistributorKit.framework */; };
+		862A76941D30658500C38628 /* DistributorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862A767F1D30658400C38628 /* DistributorKit.framework */; };
+		862A76951D30658500C38628 /* DistributorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 862A767F1D30658400C38628 /* DistributorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		862A769E1D30659E00C38628 /* TestFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A769D1D30659E00C38628 /* TestFlight.swift */; };
+		862A76A01D3065BA00C38628 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A769F1D3065BA00C38628 /* Executable.swift */; };
+		862A76A21D31BE1400C38628 /* Crashlytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76A11D31BE1400C38628 /* Crashlytics.swift */; };
+		862A76A61D31C06F00C38628 /* IPA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76A51D31C06F00C38628 /* IPA.swift */; };
+		862A76B01D32C6C300C38628 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76AF1D32C6C300C38628 /* String.swift */; };
+		862A76B21D32C6F000C38628 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76B11D32C6F000C38628 /* NSFileManager.swift */; };
+		862A76B41D32CA1C00C38628 /* CrashlyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76B31D32CA1C00C38628 /* CrashlyticsTests.swift */; };
+		862A76B61D32CCAD00C38628 /* TestExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76B51D32CCAD00C38628 /* TestExecutable.swift */; };
+		862A76B81D32CD9F00C38628 /* TestFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A76B71D32CD9F00C38628 /* TestFlightTests.swift */; };
+		8649B8F61D34CE1700FD8276 /* TestXcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649B8F51D34CE1700FD8276 /* TestXcode.swift */; };
+		8649B8F81D34CFB200FD8276 /* SystemXcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649B8F71D34CFB200FD8276 /* SystemXcode.swift */; };
+		866EA1D21D33E661009D7B37 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866EA1D11D33E661009D7B37 /* OCMock.framework */; };
+		86942A0D1D33FFC1007685E5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0B1D33FFC1007685E5 /* CommonCrypto.framework */; };
+		86942A0E1D33FFC1007685E5 /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0C1D33FFC1007685E5 /* Crypto.framework */; };
+		86942A101D34000A007685E5 /* CommonCrypto.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0B1D33FFC1007685E5 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86942A111D34000A007685E5 /* Crypto.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0C1D33FFC1007685E5 /* Crypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86942A131D34007E007685E5 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86942A121D34007E007685E5 /* NSData.swift */; };
+		86A98B071D33E97B007996BA /* OCMock.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 866EA1D11D33E661009D7B37 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86A98B091D33EA28007996BA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A98B081D33EA28007996BA /* main.swift */; };
+		86B2F47E1D33FACD00734BB3 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B2F47D1D33FACD00734BB3 /* FileManager.swift */; };
+		86F24ADE1D35940F00E323B9 /* CommandLine.framework.dSYM in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86F24ADB1D35940F00E323B9 /* CommandLine.framework.dSYM */; };
+		86F24ADF1D35940F00E323B9 /* CommonCrypto.framework.dSYM in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86F24ADC1D35940F00E323B9 /* CommonCrypto.framework.dSYM */; };
+		86F24AE01D35940F00E323B9 /* Crypto.framework.dSYM in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86F24ADD1D35940F00E323B9 /* Crypto.framework.dSYM */; };
+		86F24AE31D3594C200E323B9 /* CommonCrypto.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0B1D33FFC1007685E5 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86F24AE41D3594C200E323B9 /* Crypto.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 86942A0C1D33FFC1007685E5 /* Crypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86F24AE61D359FC900E323B9 /* CommandLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8695DDDA1D35555200122B14 /* CommandLine.framework */; };
+		86F24AE71D359FCB00E323B9 /* CommandLine.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 8695DDDA1D35555200122B14 /* CommandLine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,17 +51,116 @@
 			remoteGlobalIDString = 862A765B1D30652900C38628;
 			remoteInfo = Distributor;
 		};
+		862A768A1D30658500C38628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 862A76541D30652900C38628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862A767E1D30658400C38628;
+			remoteInfo = DistributorKit;
+		};
+		862A768C1D30658500C38628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 862A76541D30652900C38628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862A765B1D30652900C38628;
+			remoteInfo = Distributor;
+		};
+		862A76921D30658500C38628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 862A76541D30652900C38628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862A767E1D30658400C38628;
+			remoteInfo = DistributorKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		862A76991D30658500C38628 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				862A76951D30658500C38628 /* DistributorKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A98B061D33E95C007996BA /* Copy Carthage Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86942A101D34000A007685E5 /* CommonCrypto.framework in Copy Carthage Frameworks */,
+				86942A111D34000A007685E5 /* Crypto.framework in Copy Carthage Frameworks */,
+				86A98B071D33E97B007996BA /* OCMock.framework in Copy Carthage Frameworks */,
+			);
+			name = "Copy Carthage Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F24AD81D3593DF00E323B9 /* Copy Carthage Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				86F24ADE1D35940F00E323B9 /* CommandLine.framework.dSYM in Copy Carthage Frameworks */,
+				86F24ADF1D35940F00E323B9 /* CommonCrypto.framework.dSYM in Copy Carthage Frameworks */,
+				86F24AE01D35940F00E323B9 /* Crypto.framework.dSYM in Copy Carthage Frameworks */,
+			);
+			name = "Copy Carthage Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F24AE21D3594B100E323B9 /* Copy Carthage Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86F24AE71D359FCB00E323B9 /* CommandLine.framework in Copy Carthage Frameworks */,
+				86F24AE31D3594C200E323B9 /* CommonCrypto.framework in Copy Carthage Frameworks */,
+				86F24AE41D3594C200E323B9 /* Crypto.framework in Copy Carthage Frameworks */,
+			);
+			name = "Copy Carthage Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		862A765C1D30652900C38628 /* Distributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		862A765F1D30652900C38628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		862A76611D30652900C38628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		862A76641D30652900C38628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8605E2C71D348A1500FEE80F /* ITMSPackageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITMSPackageTests.swift; sourceTree = "<group>"; };
+		8605E2C91D34921E00FEE80F /* TestFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFileManager.swift; sourceTree = "<group>"; };
+		862A765C1D30652900C38628 /* distributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = distributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862A76661D30652900C38628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862A766B1D30652900C38628 /* DistributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		862A766F1D30652900C38628 /* DistributorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributorTests.swift; sourceTree = "<group>"; };
 		862A76711D30652900C38628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862A767F1D30658400C38628 /* DistributorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DistributorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862A76811D30658400C38628 /* DistributorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistributorKit.h; sourceTree = "<group>"; };
+		862A76831D30658500C38628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862A76881D30658500C38628 /* DistributorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistributorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		862A76911D30658500C38628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862A769D1D30659E00C38628 /* TestFlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFlight.swift; sourceTree = "<group>"; };
+		862A769F1D3065BA00C38628 /* Executable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		862A76A11D31BE1400C38628 /* Crashlytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crashlytics.swift; sourceTree = "<group>"; };
+		862A76A51D31C06F00C38628 /* IPA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPA.swift; sourceTree = "<group>"; };
+		862A76AF1D32C6C300C38628 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		862A76B11D32C6F000C38628 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
+		862A76B31D32CA1C00C38628 /* CrashlyticsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashlyticsTests.swift; sourceTree = "<group>"; };
+		862A76B51D32CCAD00C38628 /* TestExecutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutable.swift; sourceTree = "<group>"; };
+		862A76B71D32CD9F00C38628 /* TestFlightTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFlightTests.swift; sourceTree = "<group>"; };
+		8649B8F51D34CE1700FD8276 /* TestXcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestXcode.swift; sourceTree = "<group>"; };
+		8649B8F71D34CFB200FD8276 /* SystemXcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemXcode.swift; sourceTree = "<group>"; };
+		866EA1D11D33E661009D7B37 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/Mac/OCMock.framework; sourceTree = "<group>"; };
+		86942A0B1D33FFC1007685E5 /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/Mac/CommonCrypto.framework; sourceTree = "<group>"; };
+		86942A0C1D33FFC1007685E5 /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crypto.framework; path = Carthage/Build/Mac/Crypto.framework; sourceTree = "<group>"; };
+		86942A121D34007E007685E5 /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
+		8695DDDA1D35555200122B14 /* CommandLine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommandLine.framework; path = Carthage/Build/Mac/CommandLine.framework; sourceTree = "<group>"; };
+		86A98B081D33EA28007996BA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		86B2F47D1D33FACD00734BB3 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		86F24ADB1D35940F00E323B9 /* CommandLine.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CommandLine.framework.dSYM; path = Carthage/Build/Mac/CommandLine.framework.dSYM; sourceTree = "<group>"; };
+		86F24ADC1D35940F00E323B9 /* CommonCrypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CommonCrypto.framework.dSYM; path = Carthage/Build/Mac/CommonCrypto.framework.dSYM; sourceTree = "<group>"; };
+		86F24ADD1D35940F00E323B9 /* Crypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Crypto.framework.dSYM; path = Carthage/Build/Mac/Crypto.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862A76941D30658500C38628 /* DistributorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +176,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862A767B1D30658400C38628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F24AE61D359FC900E323B9 /* CommandLine.framework in Frameworks */,
+				86942A0D1D33FFC1007685E5 /* CommonCrypto.framework in Frameworks */,
+				86942A0E1D33FFC1007685E5 /* Crypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862A76851D30658500C38628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A76891D30658500C38628 /* DistributorKit.framework in Frameworks */,
+				866EA1D21D33E661009D7B37 /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +206,10 @@
 			children = (
 				862A765E1D30652900C38628 /* Distributor */,
 				862A766E1D30652900C38628 /* DistributorTests */,
+				862A76801D30658400C38628 /* DistributorKit */,
+				862A768E1D30658500C38628 /* DistributorKitTests */,
+				86942A0F1D33FFC5007685E5 /* Carthage Frameworks */,
+				86A98B041D33E7D0007996BA /* Carthage Private Frameworks */,
 				862A765D1D30652900C38628 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +217,10 @@
 		862A765D1D30652900C38628 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				862A765C1D30652900C38628 /* Distributor.app */,
+				862A765C1D30652900C38628 /* distributor.app */,
 				862A766B1D30652900C38628 /* DistributorTests.xctest */,
+				862A767F1D30658400C38628 /* DistributorKit.framework */,
+				862A76881D30658500C38628 /* DistributorKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +228,7 @@
 		862A765E1D30652900C38628 /* Distributor */ = {
 			isa = PBXGroup;
 			children = (
-				862A765F1D30652900C38628 /* AppDelegate.swift */,
-				862A76611D30652900C38628 /* Assets.xcassets */,
-				862A76631D30652900C38628 /* MainMenu.xib */,
+				86A98B081D33EA28007996BA /* main.swift */,
 				862A76661D30652900C38628 /* Info.plist */,
 			);
 			path = Distributor;
@@ -90,7 +243,71 @@
 			path = DistributorTests;
 			sourceTree = "<group>";
 		};
+		862A76801D30658400C38628 /* DistributorKit */ = {
+			isa = PBXGroup;
+			children = (
+				862A76811D30658400C38628 /* DistributorKit.h */,
+				862A76831D30658500C38628 /* Info.plist */,
+				862A76A51D31C06F00C38628 /* IPA.swift */,
+				862A769F1D3065BA00C38628 /* Executable.swift */,
+				86B2F47D1D33FACD00734BB3 /* FileManager.swift */,
+				862A76A11D31BE1400C38628 /* Crashlytics.swift */,
+				862A769D1D30659E00C38628 /* TestFlight.swift */,
+				86942A121D34007E007685E5 /* NSData.swift */,
+				862A76B11D32C6F000C38628 /* NSFileManager.swift */,
+				862A76AF1D32C6C300C38628 /* String.swift */,
+				8649B8F71D34CFB200FD8276 /* SystemXcode.swift */,
+			);
+			path = DistributorKit;
+			sourceTree = "<group>";
+		};
+		862A768E1D30658500C38628 /* DistributorKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				862A76B31D32CA1C00C38628 /* CrashlyticsTests.swift */,
+				862A76B71D32CD9F00C38628 /* TestFlightTests.swift */,
+				8605E2C71D348A1500FEE80F /* ITMSPackageTests.swift */,
+				862A76B51D32CCAD00C38628 /* TestExecutable.swift */,
+				8605E2C91D34921E00FEE80F /* TestFileManager.swift */,
+				8649B8F51D34CE1700FD8276 /* TestXcode.swift */,
+				862A76911D30658500C38628 /* Info.plist */,
+			);
+			path = DistributorKitTests;
+			sourceTree = "<group>";
+		};
+		86942A0F1D33FFC5007685E5 /* Carthage Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F24ADB1D35940F00E323B9 /* CommandLine.framework.dSYM */,
+				86F24ADC1D35940F00E323B9 /* CommonCrypto.framework.dSYM */,
+				86F24ADD1D35940F00E323B9 /* Crypto.framework.dSYM */,
+				8695DDDA1D35555200122B14 /* CommandLine.framework */,
+				86942A0B1D33FFC1007685E5 /* CommonCrypto.framework */,
+				86942A0C1D33FFC1007685E5 /* Crypto.framework */,
+			);
+			name = "Carthage Frameworks";
+			sourceTree = "<group>";
+		};
+		86A98B041D33E7D0007996BA /* Carthage Private Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866EA1D11D33E661009D7B37 /* OCMock.framework */,
+			);
+			name = "Carthage Private Frameworks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		862A767C1D30658400C38628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A76821D30658400C38628 /* DistributorKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		862A765B1D30652900C38628 /* Distributor */ = {
@@ -100,14 +317,17 @@
 				862A76581D30652900C38628 /* Sources */,
 				862A76591D30652900C38628 /* Frameworks */,
 				862A765A1D30652900C38628 /* Resources */,
+				862A76991D30658500C38628 /* Embed Frameworks */,
+				86F24AD81D3593DF00E323B9 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				862A76931D30658500C38628 /* PBXTargetDependency */,
 			);
 			name = Distributor;
 			productName = Distributor;
-			productReference = 862A765C1D30652900C38628 /* Distributor.app */;
+			productReference = 862A765C1D30652900C38628 /* distributor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		862A766A1D30652900C38628 /* DistributorTests */ = {
@@ -128,6 +348,45 @@
 			productReference = 862A766B1D30652900C38628 /* DistributorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		862A767E1D30658400C38628 /* DistributorKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862A76961D30658500C38628 /* Build configuration list for PBXNativeTarget "DistributorKit" */;
+			buildPhases = (
+				862A767A1D30658400C38628 /* Sources */,
+				862A767B1D30658400C38628 /* Frameworks */,
+				862A767C1D30658400C38628 /* Headers */,
+				862A767D1D30658400C38628 /* Resources */,
+				86F24AE21D3594B100E323B9 /* Copy Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistributorKit;
+			productName = DistributorKit;
+			productReference = 862A767F1D30658400C38628 /* DistributorKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		862A76871D30658500C38628 /* DistributorKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862A769A1D30658500C38628 /* Build configuration list for PBXNativeTarget "DistributorKitTests" */;
+			buildPhases = (
+				862A76841D30658500C38628 /* Sources */,
+				862A76851D30658500C38628 /* Frameworks */,
+				862A76861D30658500C38628 /* Resources */,
+				86A98B061D33E95C007996BA /* Copy Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				862A768B1D30658500C38628 /* PBXTargetDependency */,
+				862A768D1D30658500C38628 /* PBXTargetDependency */,
+			);
+			name = DistributorKitTests;
+			productName = DistributorKitTests;
+			productReference = 862A76881D30658500C38628 /* DistributorKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,10 +399,16 @@
 				TargetAttributes = {
 					862A765B1D30652900C38628 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 457C9LGKF4;
 					};
 					862A766A1D30652900C38628 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 862A765B1D30652900C38628;
+					};
+					862A767E1D30658400C38628 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					862A76871D30658500C38628 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -162,6 +427,8 @@
 			targets = (
 				862A765B1D30652900C38628 /* Distributor */,
 				862A766A1D30652900C38628 /* DistributorTests */,
+				862A767E1D30658400C38628 /* DistributorKit */,
+				862A76871D30658500C38628 /* DistributorKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -171,12 +438,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862A76621D30652900C38628 /* Assets.xcassets in Resources */,
-				862A76651D30652900C38628 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		862A76691D30652900C38628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862A767D1D30658400C38628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862A76861D30658500C38628 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862A76601D30652900C38628 /* AppDelegate.swift in Sources */,
+				86A98B091D33EA28007996BA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +481,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		862A767A1D30658400C38628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A769E1D30659E00C38628 /* TestFlight.swift in Sources */,
+				862A76A01D3065BA00C38628 /* Executable.swift in Sources */,
+				86942A131D34007E007685E5 /* NSData.swift in Sources */,
+				862A76B21D32C6F000C38628 /* NSFileManager.swift in Sources */,
+				862A76A61D31C06F00C38628 /* IPA.swift in Sources */,
+				862A76B01D32C6C300C38628 /* String.swift in Sources */,
+				862A76A21D31BE1400C38628 /* Crashlytics.swift in Sources */,
+				86B2F47E1D33FACD00734BB3 /* FileManager.swift in Sources */,
+				8649B8F81D34CFB200FD8276 /* SystemXcode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862A76841D30658500C38628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A76B81D32CD9F00C38628 /* TestFlightTests.swift in Sources */,
+				862A76B61D32CCAD00C38628 /* TestExecutable.swift in Sources */,
+				862A76B41D32CA1C00C38628 /* CrashlyticsTests.swift in Sources */,
+				8649B8F61D34CE1700FD8276 /* TestXcode.swift in Sources */,
+				8605E2CA1D34921E00FEE80F /* TestFileManager.swift in Sources */,
+				8605E2C81D348A1500FEE80F /* ITMSPackageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -210,18 +518,22 @@
 			target = 862A765B1D30652900C38628 /* Distributor */;
 			targetProxy = 862A766C1D30652900C38628 /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		862A76631D30652900C38628 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				862A76641D30652900C38628 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
+		862A768B1D30658500C38628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862A767E1D30658400C38628 /* DistributorKit */;
+			targetProxy = 862A768A1D30658500C38628 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+		862A768D1D30658500C38628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862A765B1D30652900C38628 /* Distributor */;
+			targetProxy = 862A768C1D30658500C38628 /* PBXContainerItemProxy */;
+		};
+		862A76931D30658500C38628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862A767E1D30658400C38628 /* DistributorKit */;
+			targetProxy = 862A76921D30658500C38628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		862A76721D30652900C38628 /* Debug */ = {
@@ -261,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -300,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -311,10 +623,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Distributor/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.Distributor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = distributor;
 			};
 			name = Debug;
 		};
@@ -323,36 +638,126 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Distributor/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.Distributor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = distributor;
 			};
 			name = Release;
 		};
 		862A76781D30652900C38628 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = DistributorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Distributor.app/Contents/MacOS/Distributor";
 			};
 			name = Debug;
 		};
 		862A76791D30652900C38628 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = DistributorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Distributor.app/Contents/MacOS/Distributor";
+			};
+			name = Release;
+		};
+		862A76971D30658500C38628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DistributorKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862A76981D30658500C38628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DistributorKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862A769B1D30658500C38628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = DistributorKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		862A769C1D30658500C38628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = DistributorKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dexman.DistributorKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -375,6 +780,7 @@
 				862A76761D30652900C38628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		862A76771D30652900C38628 /* Build configuration list for PBXNativeTarget "DistributorTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +789,25 @@
 				862A76791D30652900C38628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862A76961D30658500C38628 /* Build configuration list for PBXNativeTarget "DistributorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862A76971D30658500C38628 /* Debug */,
+				862A76981D30658500C38628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862A769A1D30658500C38628 /* Build configuration list for PBXNativeTarget "DistributorKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862A769B1D30658500C38628 /* Debug */,
+				862A769C1D30658500C38628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
